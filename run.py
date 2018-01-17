@@ -12,6 +12,7 @@ seq_len = 30  # 50
 batch_size = 64  # 512
 max_epoch = 100
 lstm_units = 128
+
 print('> Loading data... ')
 X_train, y_train, X_test, y_test = load_data('./data/GSPC.csv', seq_len, True)
 print('> Data Loaded. Compiling...')
